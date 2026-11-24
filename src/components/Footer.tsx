@@ -24,7 +24,7 @@ export function Footer({theme, onToggleTheme}: FooterProps) {
             </a>
             <p className="mt-2 max-w-sm text-xs leading-relaxed text-[#4B5563] dark:text-[#9CA3AF]">
               Desarrollo de software web, aplicaciones de escritorio en Rust y Tauri, servidores con
-              Dokploy/Docker y diseño gráfico con IA.
+              Docker y diseño gráfico con IA.
             </p>
           </div>
 

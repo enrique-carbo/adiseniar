@@ -1,7 +1,7 @@
 # ADISENIAR — Portfolio
 
 Portfolio técnico de ADISENIAR: desarrollo web, aplicaciones de escritorio con Rust/Tauri,
-despliegue cloud con Dokploy/Docker y diseño gráfico asistido por IA.
+despliegue cloud con Docker y diseño gráfico asistido por IA.
 
 Stack: **React 19 + TypeScript + Vite 8 + Tailwind CSS v4**. No requiere servidor ni variables
 de entorno: es un sitio estático con blog generado en HTML durante el build.

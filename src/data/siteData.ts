@@ -11,7 +11,7 @@ import {
   projectRustTauriDesktop,
   projectSimplexEcommerce,
   projectVitaltrackClinical,
-  serviceDokploy,
+  serviceDockerInfra,
 } from '../assets';
 
 export const WHATSAPP_NUMBER_DISPLAY = '+54 9 343 471-8183';
@@ -66,19 +66,19 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     index: '03.',
-    title: 'Despliegue Cloud con Dokploy y Docker',
-    subtitle: 'Dokploy · Docker · Traefik · Linux VPS',
+    title: 'Despliegue Cloud con Docker',
+    subtitle: 'Docker · Traefik · Linux VPS',
     description:
       'Puesta en producción autónoma en servidores propios. Contenerización reproducible, certificados SSL automáticos y respaldos sin depender de PaaS costosos.',
     deliverables: [
-      'Configuración integral de VPS con Dokploy y Docker Compose',
+      'Configuración integral de VPS con Docker y Docker Compose',
       'Pipelines CI/CD con despliegue continuo desde Git',
       'Monitoreo de recursos, SSL automático y copias externas',
     ],
     spanClass: 'lg:col-span-1',
-    image: serviceDokploy,
+    image: serviceDockerInfra,
     imageAlt:
-      'Infraestructura de servidor ordenada con cableado azul marino para despliegues Docker y Dokploy',
+      'Infraestructura de servidor ordenada con cableado azul marino para despliegues con Docker',
   },
   {
     index: '04.',
@@ -156,22 +156,22 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       'Monitor de estudio mostrando interfaz de aplicación de escritorio construida con Rust y Tauri',
   },
   {
-    id: 'dokploy-cloud-cluster',
-    title: 'Migración Cloud y Orquestación con Dokploy',
+    id: 'docker-cloud-cluster',
+    title: 'Migración Cloud y Orquestación con Docker',
     category: 'Web & Cloud',
     year: '2025',
     summary:
-      'Consolidación de 6 servicios web, bases PostgreSQL y workers en un VPS administrado con Dokploy, Traefik y despliegues automáticos.',
+      'Consolidación de 6 servicios web, bases PostgreSQL y workers en un VPS propio con Docker, Traefik y despliegues automáticos.',
     challenge:
       'La infraestructura previa dispersa en múltiples servicios PaaS generaba costos impredecibles y demoras en cada actualización.',
     solution:
       'Estandarización mediante Dockerfiles multi-etapa, proxy inverso con TLS automático y backups cifrados programados.',
     outcome:
       'Reducción del 64% en costos mensuales de servidor y despliegues continuos en menos de 45 segundos tras cada commit.',
-    stack: ['Dokploy', 'Docker', 'Traefik', 'PostgreSQL', 'Linux VPS'],
-    image: serviceDokploy,
+    stack: ['Docker', 'Docker Compose', 'Traefik', 'PostgreSQL', 'Linux VPS'],
+    image: serviceDockerInfra,
     imageAlt:
-      'Rack de servidores limpio con cableado estructurado para orquestación Docker con Dokploy',
+      'Rack de servidores limpio con cableado estructurado para orquestación de contenedores Docker',
   },
   {
     id: 'identidad-visual-ia',
@@ -326,9 +326,9 @@ export const TESTIMONIALS: TestimonialItem[] = [
     name: 'Martín Echeverría',
     role: 'Director de Operaciones',
     organization: 'Estudio Litoral Logística',
-    projectType: 'Migración Cloud · Dokploy & Docker',
+    projectType: 'Migración Cloud · Docker & Traefik',
     quote:
-      'Antes pagábamos tres servicios en la nube distintos y cada actualización era un riesgo. ADISENIAR unificó todo nuestro backend en un servidor propio con Dokploy y ahora desplegamos cambios en segundos con total estabilidad.',
+      'Antes pagábamos tres servicios en la nube distintos y cada actualización era un riesgo. ADISENIAR unificó todo nuestro backend en un servidor propio con Docker y ahora desplegamos cambios en segundos con total estabilidad.',
     resultMetric: '64% menos gasto mensual en hosting',
   },
   {

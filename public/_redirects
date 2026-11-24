@@ -1,0 +1,3 @@
+# El artículo cambió de slug al quitar la marca Dokploy: conservamos el SEO del URL anterior.
+/blog/dokploy-docker-despliegue-vps/ /blog/docker-despliegue-vps/ 301
+/blog/dokploy-docker-despliegue-vps /blog/docker-despliegue-vps/ 301

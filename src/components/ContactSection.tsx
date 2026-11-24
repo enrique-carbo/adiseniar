@@ -5,7 +5,7 @@ import {buildWhatsAppUrl, CONTACT_EMAIL, WHATSAPP_NUMBER_DISPLAY} from '../data/
 const PROJECT_TYPES = [
   'Aplicación Web / React & TypeScript',
   'Aplicación de Escritorio (Rust & Tauri)',
-  'Despliegue en Servidor (Dokploy & Docker)',
+  'Despliegue en Servidor (Docker & Traefik)',
   'Diseño Gráfico / Identidad Visual con IA',
 ];
 
@@ -43,7 +43,7 @@ export function ContactSection() {
             </h2>
             <p className="mt-4 text-[15px] leading-relaxed text-[#4B5563] dark:text-[#9CA3AF]">
               Atención directa sin intermediarios. Respondemos consultas sobre arquitectura web,
-              apps de escritorio en Rust/Tauri, servidores Dokploy y diseño gráfico asistido por IA.
+              apps de escritorio en Rust/Tauri, servidores Docker y diseño gráfico asistido por IA.
             </p>
 
             <div className="mt-8 space-y-4 rounded-2xl border border-[#E5E7EB] bg-white p-6 dark:border-[#1F2937] dark:bg-[#111827]">

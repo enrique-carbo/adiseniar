@@ -18,7 +18,7 @@ const CAPABILITY_STRIP = [
   },
   {
     label: 'Despliegue Cloud',
-    value: 'Dokploy · Docker · VPS',
+    value: 'Docker · Traefik · VPS',
     detail: 'Servidores propios con SSL y CI/CD reproducible',
   },
   {
@@ -64,8 +64,8 @@ export function Hero({theme, onToggleTheme}: HeroProps) {
                 En{' '}
                 <strong className="font-semibold text-[#111827] dark:text-white">ADISENIAR</strong>{' '}
                 desarrollamos aplicaciones web modernas, software de escritorio en Rust y Tauri,
-                servidores en producción con Dokploy y Docker, e identidades visuales potenciadas
-                con inteligencia artificial.
+                servidores en producción con Docker, e identidades visuales potenciadas con
+                inteligencia artificial.
               </p>
             </div>
 

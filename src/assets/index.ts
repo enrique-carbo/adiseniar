@@ -6,7 +6,7 @@ export {default as logoDark} from './brand/LogoBlanco_fde542c1.png';
 export {default as logoMono} from './brand/LogoNegroTransparente_72123c19.png';
 
 export {default as heroStudio} from './images/hero_adiseniar_studio_1795464006708.jpg';
-export {default as serviceDokploy} from './images/service_dokploy_infra_1795464008521.jpg';
+export {default as serviceDockerInfra} from './images/service_docker_infra.jpg';
 
 export {default as projectAtopicaClinimetria} from './images/project_atopica_clinimetria_1795465474956.jpg';
 export {default as projectBlogSaludAstro} from './images/project_blog_salud_astro_1795465572395.jpg';

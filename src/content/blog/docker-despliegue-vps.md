@@ -1,16 +1,16 @@
 ---
-title: Despliegue en producción con Dokploy y Docker en tu propio VPS
-description: Guía práctica para migrar aplicaciones web y APIs desde plataformas costosas hacia servidores propios usando Dokploy, Docker y Traefik con SSL automático.
-slug: dokploy-docker-despliegue-vps
+title: Despliegue en producción con Docker en tu propio VPS
+description: Guía práctica para migrar aplicaciones web y APIs desde plataformas costosas hacia servidores propios usando Docker, Docker Compose y Traefik con SSL automático.
+slug: docker-despliegue-vps
 date: 2026-11-12
 category: Cloud & Docker
-keywords: Dokploy, Docker, VPS, despliegue en la nube, Traefik, CI/CD
+keywords: Docker, Docker Compose, VPS, despliegue en la nube, Traefik, CI/CD
 readingTime: 5 min
 ---
 
 ## Por qué salir de los PaaS cerrados sin perder comodidad
 
-Cuando un proyecto crece, los costos por ancho de banda, bases de datos y nodos de cómputo en plataformas gestionadas escalan rápido. **Dokploy** resuelve esa brecha: te ofrece una interfaz limpia para gestionar contenedores Docker, certificados SSL automáticos con Let's Encrypt y despliegues por Git sobre cualquier VPS Linux.
+Cuando un proyecto crece, los costos por ancho de banda, bases de datos y nodos de cómputo en plataformas gestionadas escalan rápido. **Docker** junto con un proxy inverso bien configurado resuelve esa brecha: contenedores reproducibles, certificados SSL automáticos con Let's Encrypt y despliegues por Git sobre cualquier VPS Linux.
 
 ## Arquitectura base recomendada
 
@@ -39,4 +39,4 @@ EXPOSE 80
 
 ## Resultados reales en costos y velocidad
 
-Al consolidar aplicaciones en un VPS dedicado administrado con Dokploy, los clientes suelen reducir entre un 50% y un 70% su gasto mensual de infraestructura manteniendo despliegues con un solo `git push`.
+Al consolidar aplicaciones en un VPS propio con Docker Compose, los clientes suelen reducir entre un 50% y un 70% su gasto mensual de infraestructura manteniendo despliegues con un solo `git push`.
