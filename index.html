@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADISENIAR — Desarrollo Web, Rust/Tauri, Cloud & Diseño con IA</title>
+    <meta
+      name="description"
+      content="ADISENIAR: software web de alto rendimiento, apps de escritorio en Rust y Tauri, despliegue cloud con Dokploy y Docker, y diseño gráfico potenciado con IA."
+    />
+    <meta
+      name="keywords"
+      content="ADISENIAR, desarrollo web, React, TypeScript, Rust, Tauri, Dokploy, Docker, diseño gráfico IA, fichio, open source, Argentina"
+    />
+    <meta name="author" content="ADISENIAR" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://adiseniar.com.ar/" />
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ADISENIAR" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:url" content="https://adiseniar.com.ar/" />
+    <meta
+      property="og:title"
+      content="ADISENIAR — Desarrollo Web, Rust/Tauri, Cloud & Diseño con IA"
+    />
+    <meta
+      property="og:description"
+      content="Software web rápido, aplicaciones de escritorio con Rust y Tauri, servidores con Dokploy/Docker y diseño visual asistido por IA."
+    />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ADISENIAR — Desarrollo Web, Rust/Tauri, Cloud & Diseño con IA"
+    />
+    <meta
+      name="twitter:description"
+      content="Software web rápido, aplicaciones de escritorio con Rust y Tauri, servidores con Dokploy/Docker y diseño visual asistido por IA."
+    />
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Fonts: Bricolage Grotesque (Display), Plus Jakarta Sans (Body), JetBrains Mono (Code/Specs) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json" id="schema-primary">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "ADISENIAR",
+        "description": "Desarrollo de software web, aplicaciones de escritorio con Rust y Tauri, despliegue cloud con Dokploy y Docker, y diseño gráfico potenciado con IA.",
+        "email": "adiseniar@gmail.com",
+        "telephone": "+54-9-343-471-8183",
+        "areaServed": "Worldwide",
+        "knowsAbout": [
+          "React",
+          "TypeScript",
+          "Rust",
+          "Tauri",
+          "Docker",
+          "Dokploy",
+          "Cloud Deployment",
+          "Graphic Design",
+          "AI Visual Workflows"
+        ],
+        "sameAs": ["https://fichio.com.ar/"]
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('adiseniar-theme');
+          var prefersDark =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body
+    class="bg-[#FAFAFA] text-[#111827] antialiased transition-colors duration-150 selection:bg-[#0B1F4B] selection:text-white dark:bg-[#090D16] dark:text-[#F3F4F6] dark:selection:bg-[#2563EB]"
+  >
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

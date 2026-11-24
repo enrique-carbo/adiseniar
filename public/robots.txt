@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adiseniar.com.ar/sitemap.xml
