@@ -8,7 +8,7 @@ import {ThemeToggle} from './ThemeToggle';
 const CAPABILITY_STRIP = [
   {
     label: 'Tecnologías Web',
-    value: 'React · TypeScript · Astro',
+    value: 'Astro · React · TypeScript',
     detail: 'Interfaces rápidas orientadas a SEO y conversión',
   },
   {
@@ -54,7 +54,7 @@ export function Hero({theme, onToggleTheme}: HeroProps) {
           <div className="flex flex-col justify-between lg:col-span-6">
             <div>
               <h1
-                className="max-w-2xl font-display font-bold tracking-tight text-[#111827] [text-wrap:balance] dark:text-white"
+                className="max-w-2xl font-display font-bold tracking-tight text-[#111827] [text-balance] dark:text-white"
                 style={{fontSize: 'clamp(2.25rem, 4vw, 3.5rem)', lineHeight: 1.08}}
               >
                 Software veloz, despliegues autónomos y diseño visual con criterio.
@@ -76,7 +76,7 @@ export function Hero({theme, onToggleTheme}: HeroProps) {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-[44px] items-center gap-2 rounded-lg bg-[#0B1F4B] px-5 py-3 text-sm font-semibold text-white whitespace-nowrap shrink-0 transition-colors duration-150 hover:bg-[#132E6B] dark:bg-[#2563EB] dark:hover:bg-[#3B82F6]"
+                className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-[#0B1F4B] px-5 py-3 text-sm font-semibold text-white whitespace-nowrap shrink-0 transition-colors duration-150 hover:bg-[#132E6B] dark:bg-[#2563EB] dark:hover:bg-[#3B82F6]"
               >
                 <MessageCircle className="h-4 w-4" aria-hidden="true" />
                 <span>Consultar por WhatsApp</span>
@@ -84,7 +84,7 @@ export function Hero({theme, onToggleTheme}: HeroProps) {
 
               <a
                 href="#portafolio"
-                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-lg border border-[#E5E7EB] bg-[#FAFAFA] px-5 py-3 text-sm font-medium text-[#111827] whitespace-nowrap shrink-0 transition-colors duration-150 hover:border-[#0B1F4B]/40 hover:bg-white dark:border-[#1F2937] dark:bg-[#111827] dark:text-[#F3F4F6] dark:hover:border-[#3B82F6]/50 dark:hover:bg-[#161F30]"
+                className="inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-[#E5E7EB] bg-[#FAFAFA] px-5 py-3 text-sm font-medium text-[#111827] whitespace-nowrap shrink-0 transition-colors duration-150 hover:border-[#0B1F4B]/40 hover:bg-white dark:border-[#1F2937] dark:bg-[#111827] dark:text-[#F3F4F6] dark:hover:border-[#3B82F6]/50 dark:hover:bg-[#161F30]"
               >
                 <span>Ver portafolio técnico</span>
                 <ArrowDownRight
@@ -97,7 +97,7 @@ export function Hero({theme, onToggleTheme}: HeroProps) {
                 href="https://fichio.com.ar/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-[44px] items-center gap-1 text-sm font-medium text-[#8A0E0E] underline decoration-[#8A0E0E]/30 underline-offset-4 whitespace-nowrap shrink-0 transition-colors hover:decoration-[#8A0E0E] dark:text-[#FCA5A5] dark:decoration-[#FCA5A5]/40 dark:hover:decoration-[#FCA5A5]"
+                className="inline-flex min-h-11 items-center gap-1 text-sm font-medium text-[#8A0E0E] underline decoration-[#8A0E0E]/30 underline-offset-4 whitespace-nowrap shrink-0 transition-colors hover:decoration-[#8A0E0E] dark:text-[#FCA5A5] dark:decoration-[#FCA5A5]/40 dark:hover:decoration-[#FCA5A5]"
               >
                 <span>Open Source: fichio.com.ar</span>
                 <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
@@ -107,7 +107,7 @@ export function Hero({theme, onToggleTheme}: HeroProps) {
 
           {/* Right Column: Matching-height Editorial Visual */}
           <div className="lg:col-span-6">
-            <div className="h-full min-h-[260px] overflow-hidden rounded-2xl border border-[#E5E7EB] bg-[#F4F5F7] dark:border-[#1F2937] dark:bg-[#111827]">
+            <div className="h-full min-h-65 overflow-hidden rounded-2xl border border-[#E5E7EB] bg-[#F4F5F7] dark:border-[#1F2937] dark:bg-[#111827]">
               <ResilientImage
                 src={heroStudio}
                 alt="Estación de trabajo minimalista de ADISENIAR para desarrollo web, Rust y diseño gráfico"
